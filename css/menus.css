@@ -5,14 +5,21 @@
 .menus{
 	display:flex;
 	flex-direction: row;
-	align-items: right;
-	justify-content: end;
-	border: 2px solid yellow;
+	align-items: center;
+	justify-content: center;
+	border: 2px;
 }
 
 .menu-button{
 	width: 150px;
 	align: center;
 	height: 50px;
-	border: 2px solid red;
+	border: 2px;
+}
+
+@media only screen and (min-width: 67em) {
+	.menus {
+		border: 2px;
+		justify-content: right;
+	}
 }
