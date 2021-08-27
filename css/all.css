@@ -1,0 +1,12 @@
+/* No horizontal scroll */
+body {
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+ol, ul {
+	list-style: none;
+}
