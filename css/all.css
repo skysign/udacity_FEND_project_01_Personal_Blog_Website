@@ -10,3 +10,11 @@ a {
 ol, ul {
 	list-style: none;
 }
+
+.footer-avatar{
+	text-align: center;
+}
+
+.footer-contact{
+	text-align: center;
+}
